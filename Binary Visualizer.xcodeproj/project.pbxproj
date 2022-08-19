@@ -11,6 +11,16 @@
 		63CAE3E828AA02E800246ECC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63CAE3E728AA02E800246ECC /* ContentView.swift */; };
 		63CAE3EA28AA02E900246ECC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 63CAE3E928AA02E900246ECC /* Assets.xcassets */; };
 		63CAE3ED28AA02E900246ECC /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 63CAE3EC28AA02E900246ECC /* Preview Assets.xcassets */; };
+		63CAE3FC28AA0FD700246ECC /* AppViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63CAE3FB28AA0FD700246ECC /* AppViewController.swift */; };
+		63CAE3FE28AA142300246ECC /* BitView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63CAE3FD28AA142300246ECC /* BitView.swift */; };
+		63CAE40028AA144800246ECC /* ByteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63CAE3FF28AA144800246ECC /* ByteViewController.swift */; };
+		63CAE40228AA166700246ECC /* Byte.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63CAE40128AA166700246ECC /* Byte.swift */; };
+		63CAE40428AA1FB600246ECC /* Bit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63CAE40328AA1FB600246ECC /* Bit.swift */; };
+		63CAE40828AA329C00246ECC /* ByteView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63CAE40728AA329C00246ECC /* ByteView.swift */; };
+		63CAE40A28AA347100246ECC /* BitInputBox.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63CAE40928AA347100246ECC /* BitInputBox.swift */; };
+		63CAE40C28B0232F00246ECC /* ConversionScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63CAE40B28B0232F00246ECC /* ConversionScreenView.swift */; };
+		63CAE40E28B0258C00246ECC /* ListScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63CAE40D28B0258C00246ECC /* ListScreenView.swift */; };
+		63CAE41028B025A500246ECC /* SettingsScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63CAE40F28B025A500246ECC /* SettingsScreenView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +29,16 @@
 		63CAE3E728AA02E800246ECC /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		63CAE3E928AA02E900246ECC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		63CAE3EC28AA02E900246ECC /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		63CAE3FB28AA0FD700246ECC /* AppViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppViewController.swift; sourceTree = "<group>"; };
+		63CAE3FD28AA142300246ECC /* BitView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BitView.swift; sourceTree = "<group>"; };
+		63CAE3FF28AA144800246ECC /* ByteViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ByteViewController.swift; sourceTree = "<group>"; };
+		63CAE40128AA166700246ECC /* Byte.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Byte.swift; sourceTree = "<group>"; };
+		63CAE40328AA1FB600246ECC /* Bit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bit.swift; sourceTree = "<group>"; };
+		63CAE40728AA329C00246ECC /* ByteView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ByteView.swift; sourceTree = "<group>"; };
+		63CAE40928AA347100246ECC /* BitInputBox.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BitInputBox.swift; sourceTree = "<group>"; };
+		63CAE40B28B0232F00246ECC /* ConversionScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConversionScreenView.swift; sourceTree = "<group>"; };
+		63CAE40D28B0258C00246ECC /* ListScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListScreenView.swift; sourceTree = "<group>"; };
+		63CAE40F28B025A500246ECC /* SettingsScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsScreenView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,10 +71,14 @@
 		63CAE3E428AA02E800246ECC /* Binary Visualizer */ = {
 			isa = PBXGroup;
 			children = (
+				63CAE3E928AA02E900246ECC /* Assets.xcassets */,
 				63CAE3E528AA02E800246ECC /* Binary_VisualizerApp.swift */,
 				63CAE3E728AA02E800246ECC /* ContentView.swift */,
-				63CAE3E928AA02E900246ECC /* Assets.xcassets */,
+				63CAE3F928AA053300246ECC /* Models */,
 				63CAE3EB28AA02E900246ECC /* Preview Content */,
+				63CAE3F728AA051A00246ECC /* Resources */,
+				63CAE3FA28AA053C00246ECC /* View Controllers */,
+				63CAE3F828AA052800246ECC /* Views */,
 			);
 			path = "Binary Visualizer";
 			sourceTree = "<group>";
@@ -65,6 +89,44 @@
 				63CAE3EC28AA02E900246ECC /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		63CAE3F728AA051A00246ECC /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		63CAE3F828AA052800246ECC /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				63CAE3FD28AA142300246ECC /* BitView.swift */,
+				63CAE40728AA329C00246ECC /* ByteView.swift */,
+				63CAE40928AA347100246ECC /* BitInputBox.swift */,
+				63CAE40B28B0232F00246ECC /* ConversionScreenView.swift */,
+				63CAE40D28B0258C00246ECC /* ListScreenView.swift */,
+				63CAE40F28B025A500246ECC /* SettingsScreenView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		63CAE3F928AA053300246ECC /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				63CAE40128AA166700246ECC /* Byte.swift */,
+				63CAE40328AA1FB600246ECC /* Bit.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		63CAE3FA28AA053C00246ECC /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				63CAE3FB28AA0FD700246ECC /* AppViewController.swift */,
+				63CAE3FF28AA144800246ECC /* ByteViewController.swift */,
+			);
+			path = "View Controllers";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,8 +199,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				63CAE40828AA329C00246ECC /* ByteView.swift in Sources */,
+				63CAE3FC28AA0FD700246ECC /* AppViewController.swift in Sources */,
+				63CAE40428AA1FB600246ECC /* Bit.swift in Sources */,
+				63CAE41028B025A500246ECC /* SettingsScreenView.swift in Sources */,
+				63CAE40E28B0258C00246ECC /* ListScreenView.swift in Sources */,
 				63CAE3E828AA02E800246ECC /* ContentView.swift in Sources */,
+				63CAE3FE28AA142300246ECC /* BitView.swift in Sources */,
+				63CAE40A28AA347100246ECC /* BitInputBox.swift in Sources */,
+				63CAE40228AA166700246ECC /* Byte.swift in Sources */,
 				63CAE3E628AA02E800246ECC /* Binary_VisualizerApp.swift in Sources */,
+				63CAE40C28B0232F00246ECC /* ConversionScreenView.swift in Sources */,
+				63CAE40028AA144800246ECC /* ByteViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -11,7 +11,30 @@ import SwiftUI
 struct Binary_VisualizerApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            TabView {
+                NavigationView {
+                    //ContentView()
+                    ConversionScreenView()
+                }
+                .tabItem {
+                    Label("Conversion", systemImage: "number")
+                }
+                        //.navigationTitle("Conversion")
+                NavigationView {
+                    ListScreenView()
+                }
+                .tabItem {
+                    Label("List", systemImage: "scroll")
+                }
+                        //.navigationTitle("List")
+                NavigationView {
+                    SettingsScreenView()
+                }
+                .tabItem {
+                    Label("Settings", systemImage: "gear")
+                }
+                        //.navigationTitle("Settings")
+            }
         }
     }
 }
